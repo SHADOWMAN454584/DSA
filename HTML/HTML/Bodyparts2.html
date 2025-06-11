@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Body Parts of HTML</h1>
+    <p>This is a paragraph about the body parts of HTML.</p>
+    <main>
+        <ol>
+            <li>Main fruit</li>
+            <ul>
+                <li>mango</li>
+                <li>banana</li>
+                <li>apple</li>
+            </ul>
+            <li>Places</li>
+            <ul>
+                <li>park</li>
+                <li>beach</li>
+                <li>mountain</li>
+            </ul>
+            <li>combo</li>
+            <ul>
+                <li>burger</li>
+                <li>pizza</li>
+                <li>pasta</li>
+            </ul>
+        </ol>
+        <table>
+            <caption>Student Information</caption>
+            <tr>
+                <th colspan="2">Student Details</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Roll</th>
+            </tr>
+            <tr>
+                <td>Soham</td>
+                <td>0018</td>
+            </tr>
+        </table>
+        <hr>
+        <form action="/action.php">
+            <h2>Form Submission</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br>
+            <label for="roll">Roll:</label>
+            <input type="text" id="roll" name="roll" placeholder="Enter your roll number" required>
+            <br>
+            <label>Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+           
+            <input type="radio" id="gender_male" name="gender" value="male" required>
+            <label for="gender_male">Male</label>
+            <!-- keeping the name of the radio button same is important for grouping them helps them maintain (or) type system-->
+            <input type="radio" id="gender_female" name="gender" value="female" required>
+            <label for="gender_female">Female</label>
+            <br>
+            <label for="country">Country:</label>
+            <select name="country" id="country"  required>
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="canada">Canada</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit">
+            <br>
+            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here..."></textarea>
+        </form>
+        <iframe width="300" height="300" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=VIBqQhVTS2GpUGXH" title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </main>
+    <video width="320" height="240" controls>
+        <source src="video.mp4" type="video/mp4"> </video>
+</body>
+</html> 

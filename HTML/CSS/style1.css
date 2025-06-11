@@ -1,0 +1,54 @@
+*{
+    color:#80bfd3;
+}
+h1{
+    color:#b3cca0;
+    text-align: center;
+    font-weight:900;
+    font-family:cursive;
+    font-size: 50px;
+}
+h2{
+    color: #8af399;
+    text-align: center;
+    text-decoration:#7d84b2 wavy underline;
+    text-transform: uppercase;
+}
+p{
+    color: #a9c2a5;
+    line-height: 20px;
+}
+button{
+    color: rgb(5, 60, 62);
+    background-color:#8D8D92;
+    font-weight:700;
+    font-size: 16px;
+    display: block; margin: 0 auto;
+    /* border-style: solid;
+    border-color: #8D8D92;   
+    border-width: 10px  ; */
+    border:10px solid #8d8d92
+}
+#country{
+    color:#e0476d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    
+}
+body{
+    background-color:#406c7d;
+    line-height: 13px;
+}
+#mygem1{
+    color:darksalmon;
+    text-decoration: solid underline;
+}
+#mygem2{
+    color: khaki;
+    text-decoration:wavy;
+}
+#google{
+    color:blueviolet;
+    text-decoration: none;
+}

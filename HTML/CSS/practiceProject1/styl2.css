@@ -1,0 +1,18 @@
+div{
+    height: 60px;
+    color:aliceblue;
+    background-color: black;    
+    #logo{
+        color:#f08804;
+        text-decoration: none;
+    }
+    #submitB{
+        background-color:#f08804;
+    }
+    a{
+        margin-right: 200px;
+    }
+    #productsearch{
+        color:rgb(64, 71, 71)
+    }
+}
