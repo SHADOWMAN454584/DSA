@@ -1,0 +1,2 @@
+#define FirstGUIProgram_VERSION_MAJOR @FirstGUIProgram_VERSION_MAJOR@
+#define FirstGUIProgram_VERSION_MINOR @FirstGUIProgram_VERSION_MINOR@

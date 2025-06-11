@@ -1,0 +1,4 @@
+config/FirstGUIProgram/cdt.launchMode=run
+config/FirstGUIProgram/cdt.toolChain.id=gcc-x86_64-C\:/msys64/ucrt64/bin/gcc.exe
+config/FirstGUIProgram/cdt.toolChain.type=org.eclipse.cdt.build.gcc
+eclipse.preferences.version=1
